@@ -1,0 +1,37 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "jwt token",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayakshahdeo/jwt.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "git",
+    "jwt"
+  ],
+  "author": "vinayak shahdeo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinayakshahdeo/jwt/issues"
+  },
+  "homepage": "https://github.com/vinayakshahdeo/jwt#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.0"
+  }
+}
