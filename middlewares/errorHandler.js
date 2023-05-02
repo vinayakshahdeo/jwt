@@ -2,7 +2,6 @@ const {
 	CustomAPIError
 } = require('../errors')
 const {
-	statusCodes,
 	StatusCodes
 } = require('http-status-codes');
 
